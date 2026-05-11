@@ -89,3 +89,9 @@ function limparCampos() {
 }
 
 /*// ===== CARREGA AUTOMATICAMENTE QUANDO PÁGINA ABRE (NOVA LINHA) =====**/
+window.addEventListener('load', function(){
+
+    carregarAlunos();
+    atualizarTotal();
+    mostrarLista();
+});
