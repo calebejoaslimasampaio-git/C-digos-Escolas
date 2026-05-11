@@ -1,0 +1,48 @@
+ Reset e layout geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+button{
+    background-color: rgb(104, 214, 104);
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #333;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#saida{
+    font-size: 15px;
+}
+
+#matricula, #nome{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+}
